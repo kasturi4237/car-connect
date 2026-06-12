@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { MapPin, Clock, Users, IndianRupee, Star, Car } from 'lucide-react'
 import { format } from 'date-fns'
 
+
 export default function RideCard({ ride }) {
   const driver = ride.driver || {}
   const available = ride.seats?.available ?? 0

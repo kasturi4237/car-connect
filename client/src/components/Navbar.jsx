@@ -3,6 +3,7 @@ import { useAuth } from '../context/AuthContext'
 import { Car, Menu, X, LayoutDashboard, MapPin, PlusCircle, BookOpen, LogOut, User } from 'lucide-react'
 import { useState } from 'react'
 
+
 export default function Navbar() {
   const { user, logout } = useAuth()
   const navigate = useNavigate()

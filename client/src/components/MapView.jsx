@@ -2,6 +2,7 @@ import { MapContainer, TileLayer, Marker, Popup, Polyline, useMap } from 'react-
 import L from 'leaflet'
 import { useEffect } from 'react'
 
+
 const carIcon = L.divIcon({
   html: `<div class="bg-violet-500 text-white rounded-full w-8 h-8 flex items-center justify-center shadow-lg text-sm">🚗</div>`,
   className: '',
