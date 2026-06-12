@@ -5,6 +5,7 @@ import { useAuth } from '../context/AuthContext'
 import api from '../services/api'
 import { format } from 'date-fns'
 
+
 export default function ChatBox({ rideId }) {
   const { user } = useAuth()
   const { sendMessage, onEvent } = useSocket()
